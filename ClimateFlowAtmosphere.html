@@ -1,8 +1,9 @@
 <html>
   <head>
+  <link href="https://fonts.googleapis.com/css?family=Lora|Montserrat&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Arimo|Lora|Montserrat&display=swap" rel="stylesheet">
     <script>
     window.onload = function () {
-
     var chart = new CanvasJS.Chart("chartContainer", {
     	animationEnabled: true,
     	title:{
@@ -15,7 +16,6 @@
     		titleFontFamily: "georgia",
     		titleFontSize: 20,
     		labelFontSize: 14,
-
     		title:"Year"
     	},
     	axisY: {
@@ -64,7 +64,6 @@
     	}]
     });
     chart.render();
-
     }
     </script>
   <link rel="stylesheet"  href="ClimateFlowAtmosphere.css"
@@ -82,14 +81,36 @@
 <div class="hero-image">
   <div class="hero-text">
     <h1 style="font-size:65px"  style = "font-family: Ropa Sans" >The Atmosphere</h1>
+    <center><div class ="learnMore"><a href="file:///C:/Users/User/Desktop/ClimateFolderNew/index.html"> Home</a></center>
+
+    <div class="container">
+      <div class="topnav">
+        <a href="file:///C:/Users/User/Desktop/ClimateFolderNew/ClimateFlow_LearnMore.html">Our Mission </a>
+        <a href="file:///C:/Users/User/Desktop/ClimateFolderNew/ClimateFlowAtmosphere.html">Atmosphere Simulation</a>
+        <a href="file:///C:/Users/User/Desktop/ClimateFolderNew/ClimateFlowOcean.html">Ocean Simulation</a>
+        <a href="file:///C:/Users/User/Desktop/ClimateFolderNew/takeAction.html#lifestyleInfo">Take Action</a>
+      </div>
+    </div>
+    </div>
+
+
   </div>
 </div>
 
-<h2 style="text-align:center;" style = "font-family:Montserrat "> Global carbon emissions in 2018 hit an all-time record of 37.1 billion metric tons. </h2>
+<center> <h2>Global carbon emissions in 2018 hit an all-time record of 37.1 billion metric tons</h2> </center>
 
-<p style ="font-family: Montserrat"> The greenhouse effect is a term used to discuss global warming relating to the atmosphere. Greenhouse gases include water vapor, carbon dioxide, nitrous oxide, and methane. These gases trap energy from the sun; without them, heat would escape and the Earth would be much colder. The current problem is that human activities (such as burning fossil fuels) release much more carbon dioxide into our atmosphere. A large amount of greenhouse gases can cause Earth to trap more heat, and essentially, overheat the globe. The impact of this is not just higher temperatures; it can also lead to more intense storms, colder temperatures in northern areas, drier deserts, droughts or increased flooding.
+
+<center><p class="intro">
+The greenhouse effect is a term used to discuss global warming relating to the atmosphere. Greenhouse gases include water vapor,
+carbon dioxide, nitrous oxide, and methane. These gases trap energy from the sun; without them, heat would escape and the Earth
+would be much colder. The current problem is that human activities (such as burning fossil fuels) release much more carbon dioxide
+into our atmosphere. A large amount of greenhouse gases can cause Earth to trap more heat, and essentially, overheat the globe.
+The impact of this is not just higher temperatures; it can also lead to more intense storms, colder temperatures in northern areas,
+drier deserts, droughts or increased flooding.
 
 <br> <br> The graph below shows the global emissions (billion metric tons) by country each year, along with the temperature increase as an impact. </p>
+</p></center>
+
 
 
 <div id="chartContainer" style="height: 500px;"></div>
@@ -99,3 +120,4 @@
 
 </body>
 </html>
+
